@@ -1,0 +1,71 @@
+.mainSlider
+{
+overflow: hidden;
+height:500px;
+width:100%;
+}
+.slider 
+{
+    position: relative;
+    z-index:0;
+ height:100%;
+   overflow:hidden;
+}
+.slider img 
+{
+width:100%;
+position:absolute;
+}
+
+.slideArrow 
+{
+    cursor: pointer;
+    font-size:40px;
+    color:black;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    top:67px;
+    z-index:5;
+   height:500px; 
+   transition:all .2s;
+}
+.rightArrow 
+{
+    right:10px;
+  
+}
+
+.leftArrow 
+{
+    left:10px;
+}
+.slideArrow:hover 
+{
+    color:rgb(236, 236, 236);
+}
+.fade-enter 
+{
+    opacity:0;
+}
+
+.fade-enter.fade-enter-active {
+transition:opacity 1300ms;
+opacity:1;
+  }
+  
+  .fade-leave {
+    opacity: 1;
+  }
+  
+  .fade-leave.fade-leave-active {
+    transition: opacity 300ms ease-in;
+    opacity: 0.00;
+  }
+
+  @keyframes slide-left 
+  {
+      from{transform:translateX(-100%)}
+      to{transform:translateX(0%)}
+  }

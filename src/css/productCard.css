@@ -2,18 +2,23 @@
   padding: 10px;
   border-radius: 4px;
   background-color: rgb(255, 255, 255);
-  display: flex;
   box-shadow: 0 0 4px rgba(29, 29, 29, 0.795);
   color:rgb(0, 0, 0);
-  margin:15px 0;
+  text-align:center;
+   vertical-align: top;
+   margin:0 auto;
+   position: relative;
 }
 .imageHolder {
+ 
 }
 .productCard img {
   width: 120px;
+  margin:auto;
 }
 
 .productCardContent p {
+  width:300px;
   margin: 10px;
   padding: 0 10px;
   text-shadow: 0 0 1px black;
@@ -23,11 +28,15 @@
   border: 0;
   padding: 10px;
   border-radius: 2px;
-  box-shadow: 0 0 4px orange;
-  background-color: rgb(255, 138, 29);
-  margin: 20px;
+ 
   cursor: pointer;
   transition:all .2s;
+  position: absolute;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,0);
+  font-size:25px;
+  
 }
 
 .productCardContent button:hover 
@@ -37,5 +46,9 @@
 
 .productCardContent .price 
 {
-    margin:0 20px;
+    margin:10px;
+    font-size:22px;
+    color:rgb(255, 145, 0);
+    position: absolute;
+    bottom:0;
 }

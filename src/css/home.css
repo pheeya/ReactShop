@@ -1,20 +1,19 @@
 .home 
 {
-    right:11px;
-    left:265px;
-    top:75px;
-    bottom:8px;
-    position:absolute;
-    overflow-y: scroll;
-    overflow-x:hidden;
 }
 
 .homeCategory 
 {
-    margin:0 10px;
-    color:white;
+    margin-left:50px;
+    margin-bottom:0;
+    color:rgb(37, 37, 37);
 }
 .allProductCards 
 {
-    padding:10px;
+    
+    background-color:white;
+    margin:50px;
+    display:flex;
+    padding:50px;
+   
 }

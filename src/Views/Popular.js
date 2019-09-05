@@ -4,9 +4,11 @@ import ProductCard from '../Components/ProductCard'
 import candle1 from '../img/candle1.png'
 import candle2 from "../img/candle2.png"
 import candle3 from '../img/candle3.png'
+import Slider from '../Components//Slider'
 function Home(props) {
     return (
         <div class="home">
+            <Slider></Slider>
             <h2 class="homeCategory">Popular</h2>
           <div class="allProductCards">
               <ProductCard title="Love Vanilla"

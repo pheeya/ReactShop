@@ -12,9 +12,6 @@ import NavCss from './css/nav.css'
 function Nav() {
     return (
       <Router>
-      <Route path="/" exact component={Popular} />
-      <Route path="/account" exact component={Account}/>
-           
         <div class='navContainer'>
             <ul>
                 <li id="logo">Logo</li>
@@ -26,6 +23,8 @@ function Nav() {
                
             </ul>
         </div>
+        <Route path="/" exact component={Popular} />
+      <Route path="/account" exact component={Account}/>
         </Router>
     )
     
@@ -42,7 +41,7 @@ constructor(props){
      <div>
        
      <Nav></Nav>
-     <SidePanel></SidePanel>
+     
  
    </div>
     )

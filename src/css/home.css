@@ -1,5 +1,6 @@
 .home 
 {  
+  min-width:478px;
 }
 
 .homeCategory 
@@ -19,7 +20,6 @@
     padding:50px;
     display: -webkit-flex; /* Safari */
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-   
 }
 
 .home .onlyLeftMargin 
@@ -27,6 +27,15 @@
   margin:15px 50px;
   padding:10px;
   background-color:white;
+}
+@media (max-width:500px){
+  .allProductCards{
+    margin:50px 0;
+    padding:10px;
+  }
+  .home .onlyLeftMargin{
+    margin:15px 0;
+  }
 }
 .home .timer 
 {

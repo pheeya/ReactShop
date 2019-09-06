@@ -3,6 +3,7 @@
 overflow: hidden;
 height:500px;
 width:100%;
+min-width:478px;
 }
 .slider 
 {
@@ -10,7 +11,19 @@ width:100%;
     z-index:0;
  height:100%;
    overflow:hidden;
+   min-width:478px;
 }
+@media(max-width:725px){
+  .mainSlider,.slider{
+    height:72vh;
+  }
+}
+@media(max-width:550px){
+  .mainSlider,.slider{
+    height:50vh;
+  }
+}
+
 .slider img 
 {
 width:100%;

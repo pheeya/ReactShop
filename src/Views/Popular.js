@@ -82,9 +82,10 @@ render() {return (
                 <div class="timer">                                                                                                             
                 <div class = 'timeLeft'>{this.state.days}</div>
                 <div class = 'timeLeft'>{this.state.hours}</div>
+                <div class= 'timeLeft'>{this.state.minutes}</div>
                 <div class= 'timeLeft'>{this.state.seconds}</div>
                 </div>
-               <div class="allProductCards">
+               <div class="allProductCards bottomCards">
                 <ProductCard 
                 title="S.T AL"
                 candle={saleCandle1}

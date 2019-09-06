@@ -1,6 +1,7 @@
 import React from 'react';
 import SidePanel from "./Components/SidePanel"
 import Popular from "./Views/Popular"
+import Footer from './Components/Footer'
 import Account from "./Views/Account"
 
 import './App.css';
@@ -41,7 +42,7 @@ constructor(props){
      <div>
        
      <Nav></Nav>
-     
+     <Footer></Footer>
  
    </div>
     )

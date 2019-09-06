@@ -1,0 +1,43 @@
+.footer 
+{
+    background-color:rgb(27, 27, 27);
+    color:white;
+    padding:20px 50px;
+    font-size:13px;
+    min-height:30vh;
+    position: absolute;
+    line-height:1.6;
+    bottom:0;
+    width:100%;
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.footerHeader 
+{
+    font-size:18px;
+    font-weight:bold;
+}
+.footer h3, .footer ul, .footer ul li 
+{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+.footerItem 
+{
+ font-size:15px;
+ color:rgb(204, 204, 204);
+ transition:all .1s;
+ cursor: pointer;
+}
+
+.footerItem:hover 
+{
+    color:white;
+}
+
+.listHolder 
+{
+    margin:auto;
+}

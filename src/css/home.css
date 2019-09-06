@@ -13,7 +13,37 @@
     
     background-color:white;
     margin:50px;
+    margin-top:0px;
     display:flex;
+    flex-wrap: wrap;
     padding:50px;
+    display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
    
+}
+
+.home .onlyLeftMargin 
+{
+  margin:15px 50px;
+  padding:10px;
+  background-color:white;
+}
+.home .timer 
+{
+  display:flex;
+  margin-left:50px;
+  margin-bottom:15px;
+}
+
+.timer .timeLeft 
+{
+  margin:5px;
+  font-size:25px;
+  background-color:rgb(255, 104, 35);
+  width:50px;
+  text-align:center;
+  color:white;
+  border-radius:4px;
+  padding:5px;
+  
 }

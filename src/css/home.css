@@ -1,6 +1,6 @@
 .home 
 {  
-  min-width:478px;
+  min-width:320px;
 }
 
 .homeCategory 
@@ -15,28 +15,13 @@
     background-color:white;
     margin:50px;
     margin-top:0px;
-    display:flex;
-    flex-wrap: wrap;
     padding:50px;
+    display:flex;
     display: -webkit-flex; /* Safari */
-  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  overflow-x:scroll;
+  overflow-y:hidden;
 }
 
-.home .onlyLeftMargin 
-{
-  margin:15px 50px;
-  padding:10px;
-  background-color:white;
-}
-@media (max-width:500px){
-  .allProductCards{
-    margin:50px 0;
-    padding:10px;
-  }
-  .home .onlyLeftMargin{
-    margin:15px 0;
-  }
-}
 .home .timer 
 {
   display:flex;
@@ -55,6 +40,26 @@
   border-radius:4px;
   padding:5px;
   
+}
+
+.home .onlyLeftMargin 
+{
+  margin:15px 50px;
+  padding:10px;
+  background-color:white;
+}
+@media (max-width:500px){
+  .allProductCards{
+    margin:50px 0;
+    padding:10px;
+  }
+  .home .onlyLeftMargin{
+    margin:15px 0;
+  }
+  .home .timer 
+  {
+    margin-left:0;
+  }
 }
 
 .bottomCards 

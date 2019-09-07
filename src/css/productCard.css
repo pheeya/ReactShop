@@ -6,10 +6,10 @@
   color:rgb(0, 0, 0);
   text-align:center;
    vertical-align: top;
-   margin:20px auto;
+   margin:20px 30px;
    position: relative;
    max-width:300px;
-   
+   min-width:250px;
 }
 
 .productCardContent p {
@@ -28,7 +28,7 @@
   .productCard p 
   {
     border:1px solid rgba(32, 32, 32, 0.322);
-   margin:5px 0;
+   margin:20px 0;
    border-radius:6px;
    padding:3px; 
    max-height:150px;

@@ -43,8 +43,8 @@ previous(){
         <div class='slider'>
             <CSSTransitionGroup
             transitionName='fade'
-            transitionEnterTimeout={1300}
-            transitionLeaveTimeout={300}
+            transitionEnterTimeout={1}
+            transitionLeaveTimeout={1}
             >
             <img src={images[this.state.counter]} key={this.state.counter} alt='slides'/>
             </CSSTransitionGroup>

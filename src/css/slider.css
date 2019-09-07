@@ -4,30 +4,46 @@ overflow: hidden;
 height:500px;
 width:100%;
 min-width:478px;
+min-height:500px;
 }
 .slider 
 {
     position: relative;
+    background-color:rgb(32, 32, 32);
     z-index:0;
  height:100%;
    overflow:hidden;
-   min-width:478px;
+   min-width:320px;
+   min-height:500px;
 }
 @media(max-width:725px){
   .mainSlider,.slider{
     height:72vh;
+    min-height:500px;
   }
 }
 @media(max-width:550px){
   .mainSlider,.slider{
     height:50vh;
+    min-height:500px;
   }
 }
 
 .slider img 
 {
+
 width:100%;
 position:absolute;
+right:0;
+left:0;
+margin:auto;
+}
+@media (max-width:760px){
+  .slider img 
+  {
+    width:auto;
+    height:100%;
+  }
 }
 
 .slideArrow 
@@ -64,21 +80,16 @@ position:absolute;
 }
 
 .fade-enter.fade-enter-active {
-transition:opacity 1300ms;
-opacity:1;
+/* transition:opacity 00ms;
+opacity:1; */
   }
   
   .fade-leave {
-    opacity: 1;
+    /* opacity: 1; */
   }
   
   .fade-leave.fade-leave-active {
-    transition: opacity 300ms ease-in;
-    opacity: 0.00;
+    /* transition: opacity 00ms ease-in;
+    opacity: 0.00; */
   }
 
-  @keyframes slide-left 
-  {
-      from{transform:translateX(-100%)}
-      to{transform:translateX(0%)}
-  }

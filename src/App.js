@@ -55,10 +55,10 @@ class Nav extends React.Component {
 
             <li id="logo"></li>
             <Link exact activeClassName="activeLink" to="/"><li class="topLI"><i class="fas fa-home icon"></i> Home</li></Link>
-            <Link exact activeClassName='activeLink' to="/account"><li><i class="fas fa-user-circle"></i> My Account</li></Link>
-            <Link exact activeClassName='activeLink' to='/basket'><li><i class="fas fa-shopping-basket icon"></i> Basket</li></Link>
-            <Link exact activeClassName='activeLink' to="/contact"><li><i class="fas fa-phone-alt"></i> Contact</li></Link>
-            <Link exact activeClassName="activeLink" to="/about"><li><i class="fas fa-burn"></i> About Us</li></Link>
+            <Link exact activeClassName='activeLink' to="#"><li><i class="fas fa-user-circle"></i> My Account</li></Link>
+            <Link exact activeClassName='activeLink' to='#'><li><i class="fas fa-shopping-basket icon"></i> Basket</li></Link>
+            <Link exact activeClassName='activeLink' to="#"><li><i class="fas fa-phone-alt"></i> Contact</li></Link>
+            <Link exact activeClassName="activeLink" to="#"><li><i class="fas fa-burn"></i> About Us</li></Link>
           </ul>
         </div>
         <Route path="/" exact component={Popular} />

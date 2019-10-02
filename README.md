@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+WORKING WEBSITE: https://react-shop-5254f.firebaseapp.com
 
 ## Available Scripts
 
